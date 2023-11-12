@@ -3399,7 +3399,15 @@ iframe{
 				#nav.alt ul li a {
 					font-size: 0.9em;
 				}
-		@media screen and (max-width: 485px) {
+
+		@media screen and (max-width: 480px) {
+
+			#nav {
+
+				max-width: calc(100% - 2em);
+			}
+		}
+		@media screen and (max-width: 395px) {
 
 			#nav {
 				display: none;
@@ -3410,6 +3418,7 @@ iframe{
 				}
 
 		}
+
 /*Speech bubble*/
 	#speech-bubble {
 		background: #ffffff;
