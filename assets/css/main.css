@@ -3399,7 +3399,7 @@ iframe{
 				#nav.alt ul li a {
 					font-size: 0.9em;
 				}
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 485px) {
 
 			#nav {
 				display: none;
