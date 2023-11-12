@@ -80,6 +80,18 @@ hi{
 
 	}
 }
+/*Video player*/
+iframe{
+	width:50%; 
+	height: 315px;
+}
+@media screen and (max-width: 800px) {
+
+	iframe{
+		width: 100%; 
+	}
+
+}
 /* Basic */
 
 	@-ms-viewport {
